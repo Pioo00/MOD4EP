@@ -29,57 +29,139 @@
         <source src = "bransboynd-night-summer-lounge-473222.mp3" type = "audio/mpeg">
     </audio>
     <div class="container-fluid"> 
-            
-                    <div class="row">
-                        <div class="col-2 justify-content-left">
-                                <ul class="nav flex-column">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="details.html"> French Wines </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="details.html">Italian Wines </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="details.html">Spanish Wines </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="details.html">American Wines </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="details.html">Australian Wines </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="details.html">Argentinian Wines </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="details.html">German Wines </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="details.html">Portugese Wines </a>
-                                    </li>
-                                </ul>
-                        </div>
-                    </div>
-                    <div class = "col-8">
-                        <div id = "la-vieille-ferme-rouge" class = "wine-description card">
-                            <div class = "row"> 
-                                <div class = "col-md-3"> 
-                                    <img src = 
+        <div class="row">
+                <div class="col-2 justify-content-left">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="details.html"> French Wines </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="details.html">Italian Wines </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="details.html">Spanish Wines </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="details.html">American Wines </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="details.html">Australian Wines </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="details.html">Argentinian Wines </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="details.html">German Wines </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="details.html">Portugese Wines </a>
+                        </li>
+                    </ul>
+                </div>
+            <div class = "col 8"> 
+                <div id = "bestSellersCarousel" class = "carousel slide" data-bs-ride = "false"> 
+                    <div class = "carousel-inner"> 
+                        
+                        <div class = "carousel-item active"> 
+                            <div class = "wine-description card"> <!-- https://getbootstrap.com/docs/4.0/components/card/-->
+                                <div class = "wine-layout">
+                                    <div class = "wine-image">
+                                        <img src = location alt = "Best Seller 1">
+                                    </div>
+                                </div> 
+                                <div class = "wine-details">
+                                    <h3> Best Seller Wine 1 </h3>
+                                    <p> Description </p>
+                                </div>
+                                <div class = "wine-purchase"> 
+                                    <h5>Purchase Details:</h5>
+                                    <p> by: Producer Name </p>
+                                    <label for = "vintage1">Vintage:</label>
+                                    <select id = "vintage1"> 
+                                        <option>date</option> 
+                                    </select>
+                                    <label for = "quantity1">Quantity:</label>
+                                    <input type = "number" id = "quantity1" placeholder="Enter quantity">
+                                    <button>Add to Cart</button>
+                                    <label for = "message1">Send a Message:</label>
+                                    <input type = "text" id = "message1" placeholder = "Type message">
+                                    <button>Submit</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                        
+                    <div class = "carousel-item active"> 
+                        <div class = "wine-description card"> <!-- https://getbootstrap.com/docs/4.0/components/card/-->
+                            <div class = "wine-layout">
+                                    <div class = "wine-image">
+                                        <img src = location alt = "Best Seller 1">
+                                    </div>
+                                </div> 
+                                <div class = "wine-details">
+                                    <h3> Best Seller Wine 1 </h3>
+                                    <p> Description </p>
+                                </div>
+                                <div class = "wine-purchase"> 
+                                    <h5>Purchase Details:</h5>
+                                    <p> by: Producer Name </p>
+                                    <label for = "vintage1">Vintage:</label>
+                                    <select id = "vintage1"> 
+                                        <option>date</option> 
+                                    </select>
+                                    <label for = "quantity1">Quantity:</label>
+                                    <input type = "number" id = "quantity1" placeholder="Enter quantity">
+                                    <button>Add to Cart</button>
+                                    <label for = "message1">Send a Message:</label>
+                                    <input type = "text" id = "message1" placeholder = "Type message">
+                                    <button>Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class = "carousel-item active"> 
+                            <div class = "wine-description card"> <!-- https://getbootstrap.com/docs/4.0/components/card/-->
+                                <div class = "wine-layout">
+                                    <div class = "wine-image">
+                                        <img src = location alt = "Best Seller 1">
+                                    </div>
+                                </div> 
+                                <div class = "wine-details">
+                                    <h3> Best Seller Wine 1 </h3>
+                                    <p> Description </p>
+                                </div>
+                                <div class = "wine-purchase"> 
+                                    <h5>Purchase Details:</h5>
+                                    <p> by: Producer Name </p>
+                                    <label for = "vintage1">Vintage:</label>
+                                    <select id = "vintage1"> 
+                                        <option>date</option> 
+                                    </select>
+                                    <label for = "quantity1">Quantity:</label>
+                                    <input type = "number" id = "quantity1" placeholder="Enter quantity">
+                                    <button>Add to Cart</button>
+                                    <label for = "message1">Send a Message:</label>
+                                    <input type = "text" id = "message1" placeholder = "Type message">
+                                    <button>Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <button class = "carousel-control-prev" type = "button" data-bs-target = "#bestSellersCarousel" data-bs-slide="prev">
+                    <span class = "carousel-control-prev-icon"></span>
+                </button>
+                <button class = "carousel-control-next" type = "button" data-bs-target = "#bestSellersCarousel" data-bs-slide = "next">
+                    <span class = "carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
     </div>
-
-
-
     <div class="justify-content-center fixed-bottom">
         <hr>
         <div class="col pb-3 text-center">
             @happywines
         </div>
     </div>
-
 </body>
 </html>
