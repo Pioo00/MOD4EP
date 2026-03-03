@@ -9,37 +9,59 @@
 </head>
 <body>
 
-    <div class="container"> 
+    <div class="container mt-4"> 
 
-        <div class="header">
-            <h1> Some header </h1>
+            <h1 class="header-title"> Some Header </h1>
             <hr>
-        </div>
+        <div class="row align-items-center mb-3">
+        
     
-        <div class="Fields_div">
-            <label for="Field 1">Field 1: </label>
-            <input type="text" name="Field1" id="Field1"> 
-            <br>
-            <label for="Field 2">Field 2: </label>
-            <input type="text" name="Field2" id="Field2"> 
-            <br>
-            <label for="Field 3">Field 3: </label>
-            <input type="text" name="Field3" id="Field3"> 
-            <br>
-            <input type="submit" name="Submit">
-            </form>
+            <div class="col-auto">
+            <label class="form-label">Field 1</label>
+            </div>
+
+            <div class="col-2">
+            <input type="text" class="form-control">
+            </div>
+
+            <div class="col-auto">
+            <label class="form-label">Field 2</label>
+            </div>
+
+            <div class="col-2">
+            <select class="form-select">
+            <option>Open menu</option>
+            </select>
+            </div>
+
+            <div class="col-auto">
+            <label class="form-label">Field 3</label>
+            </div>
+
+            <div class="col-3">
+            <textarea class="form-control"></textarea>
+            </div>
+
+            <div class="col-auto">
+            <button class="btn btn-primary">Submit</button>
+            </div>
+
         </div>
         
         <div class="mid">
                 <p>
                     <div class="wine_table">
-                        <table>
+                        <table class="table table-striped">
+                        <thead class="table-dark">
                             <tr>
                                 <th>#</th>
                                 <th>First Name</th>
                                 <th>Last Name</th>
                                 <th>Superhero Name</th>
                             </tr>
+                            </thead>
+                            
+                            <tbody>
                             <tr>
                                 <td>1</td>
                                 <td>Bruce</td>
@@ -130,29 +152,31 @@
                                 <td>M'orzz</td>
                                 <td>Miss Martian</td>
                             </tr>
+                            </tbody>
                         </table>
                     </div>
                 </p>
         </div>
-    <div id = "heroCarousel" class = "carousel slide" data-bs-ride = "carousel">
+    </div>
+    <div id = "heroCarousel" class = "carousel slide mt-4" data-bs-ride = "carousel">
         <div class = "carousel-inner"> 
             <div class = "carousel-item active">
-                <img src = "exercise_images/batman.jpg" alt = "Batman">
+                <img src = "exercise_images/batman.jpg" alt = "Batman" class="d-block w-100 carousel-img">
             </div>    
             <div class = "carousel-item"> 
-                <img src = "exercise_images/catwoman.jpg" alt = "Catwoman">
+                <img src = "exercise_images/catwoman.jpg" alt = "Catwoman" class="d-block w-100 carousel-img">
             </div>
             <div class = "carousel-item"> 
-                <img src = "exercise_images/wonderwoman.jpg" alt = "Wonder Woman">
+                <img src = "exercise_images/wonderwoman.jpg" alt = "Wonder Woman" class="d-block w-100 carousel-img">
             </div>
             <div class = "carousel-item"> 
-                <img src = "exercise_images/harley.jpg" alt = "Harley Quinn"> 
+                <img src = "exercise_images/harley.jpg" alt = "Harley Quinn" class="d-block w-100 carousel-img"> 
             </div>
             <div class = "carousel-item"> 
-                <img src = "exercise_images/robin.jpg" alt = "Robin">
+                <img src = "exercise_images/robin.jpg" alt = "Robin" class="d-block w-100 carousel-img">
             </div>
             <div class = "carousel-item"> 
-                <img src = "exercise_images/superman.jpg" alt = "Supeman">
+                <img src = "exercise_images/superman.jpg" alt = "Supeman" class="d-block w-100 carousel-img">
             </div>
         </div>
         <button class = "carousel-control-prev" type = "button" data-bs-target = "#heroCarousel" data-bs-slide = "prev"> 
