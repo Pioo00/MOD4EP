@@ -1,0 +1,60 @@
+.wine-description {
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    border-radius:5px; 
+}
+
+.wine-layout { 
+    display: flex; 
+    gap: 20px; 
+    align-items: flex-start; 
+}
+
+.wine-image{ 
+    flex: 0 0 150px; 
+}
+
+.wine-image img { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px;
+}
+
+.wine-text{ 
+    flex: 1; 
+    font-size: 0.85rem;
+}
+
+.wine-purchases {
+    padding: 10px 0; 
+}
+
+.carousel-control-prev, .carousel-control-next { 
+    width: 36px; 
+    height: 36px;
+    top: 50%;
+    bottom: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px; 
+}
+
+.carousel-control-prev { 
+    left: 200px; 
+}
+
+.carousel-control-next { 
+    right: 10px; 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon { 
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1.2rem; 
+    height: 1.2rem; 
+    background-size: 60%; 
+    border-radius: 60%;
+}
+
+.carousel-inner{ 
+    padding: 0 50px
+}
