@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Wines</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <audio autoplay loop> 
+        <source src = "brand-page-music.mp3" type="audio/mpeg">
+    </audio>
+    <style>
+        
+        body {
+            background-color: #1a1e16; 
+            color: #f1e9d2; 
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .hero-unit {
+            background: linear-gradient(135deg, #4a0404 0%, #2e0202 100%); 
+            padding: 40px;
+            border-radius: 20px;
+            border: 2px solid #bfa15c;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.7);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .display-2 {
+            color: #d4af37; 
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .lead {
+            color: #e5c17a; 
+            font-weight: 300;
+        }
+
+        .gold-hr {
+            border-top: 2px solid #bfa15c;
+            opacity: 0.8;
+            width: 80%;
+            margin: 40px auto;
+        }
+
+        .vintner-label {
+            color: #bfa15c;
+            letter-spacing: 5px;
+        }
+
+        .btn-group-vintners .btn-outline-gold {
+            color: #d4af37;
+            border-color: #d4af37;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-left: 40 px;
+            padding-right: 40 px;
+        }
+
+        .btn-group-vintners .btn-outline-gold:hover {
+            background-color: #d4af37;
+            color: #2e0202; 
+            border-color: #d4af37;
+        }
+
+        .btn-primary-wine {
+            background-color: #8c001a; 
+            border-color: #8c001a;
+            color: #f1e9d2;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 10px rgba(140, 0, 26, 0.4);
+        }
+
+        .btn-primary-wine:hover {
+            background-color: #a70020;
+            border-color: #a70020;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 text-center hero-unit">
+                <div class="position-relative z-1">
+                    <h1 class="display-2 fw-bold mb-3">The Happy Wines Cellar</h1>
+                    
+                    <p class="lead fs-3 mb-5">
+                        Inventors and producers of fine and vintage wines.
+                    </p>
+
+                    <hr class="gold-hr">
+
+                    <h5 class="vintner-label text-uppercase mb-4">Founding Vintners</h5>
+                    
+                    <div class="btn-group btn-group-lg btn-group-vintners" role="group" aria-label="Group Vintners">
+                        <button type="button" class="btn btn-outline-gold">Miguel Cootauco</button>
+                        <button type="button" class="btn btn-outline-gold">Pio Jose</button>
+                        <button type="button" class="btn btn-outline-gold">Amado Malhabour</button>
+                    </div>
+
+                    <div class="mt-5 pt-3">
+                        <a href="inside_bootstrapped.html" class="btn btn-primary-wine btn-lg rounded-pill px-5 py-3">Explore the Collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed-bottom">
+        <hr class="border-secondary opacity-25 m-0">
+        <div class="container pb-3 text-center">
+            <div class="row pt-3">
+                <div class="col text-center" style="color: #bfa15c; opacity: 0.6; font-size: 0.9rem;">
+                    © Happy Wines Estate | Est. 2026 | @happywines
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
